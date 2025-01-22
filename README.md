@@ -14,3 +14,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 For the server, make sure that you are inside the correct directory using /server
 ### `cd server/src && tsc server.ts && node server.js`
 This will run the apollo gql server along with SQLite db.
+Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
