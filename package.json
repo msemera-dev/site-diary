@@ -1,0 +1,53 @@
+{
+  "name": "site-diary",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.12.6",
+    "@uploadthing/react": "^7.1.5",
+    "apollo-server": "^3.13.0",
+    "better-sqlite3": "^11.8.1",
+    "cra-template-typescript": "1.2.0",
+    "firebase": "^11.2.0",
+    "graphql": "^16.10.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.1.3",
+    "react-router-dom": "^7.1.3",
+    "react-scripts": "5.0.1",
+    "uploadthing": "^7.4.4",
+    "uuid": "^11.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "css-loader": "^7.1.2",
+    "sass": "^1.83.4",
+    "style-loader": "^4.0.0"
+  }
+}

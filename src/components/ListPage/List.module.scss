@@ -1,0 +1,103 @@
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.listItem {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 500px;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.itemLink {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px;
+}
+
+.listItem:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+}
+
+.createBtn {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #152238;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+}
+
+.createBtn:hover {
+    background-color: #1e3a5c;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 600px) {
+    .listContainer {
+        padding: 10px;
+    }
+
+    .header {
+        margin-bottom: 10px;
+    }
+
+    .listItem {
+        max-width: 100%;
+    }
+
+    .itemLink {
+        font-size: 16px;
+    }
+
+    .createBtn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        font-size: 18px;
+    }
+
+    .listItem {
+        padding: 12px;
+    }
+
+    .itemLink {
+        font-size: 14px;
+    }
+
+    .createBtn {
+        width: 100%;
+        font-size: 14px;
+    }
+}
